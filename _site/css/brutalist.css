@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  }
+html {
+  border-top: 10px solid gold;
+}
+body {
+  display: flex;
+  flex-direction :row
+  column-gap: 2rem;
+}
+h1,h2 {
+  min-width: 100vw;
+}
+body > p {
+  width:calc(50% - 1rem);
+}
+
+@media (max-width: 800px) {
+
+}

@@ -1,0 +1,394 @@
+<rss version="2.0">
+<channel>
+<title>Scripting for the Web, spring 2026</title>
+<link>https://leetusman.com/scripting_spring2026</link>
+<description>Website for Purchase College MAT course Scripting for the Web</description>
+<item>
+<title>
+HTML and CSS
+</title>
+<link>
+https://leetusman.com/scripting_spring2026/posts/2026-01-01-week1.html
+</link>
+<guid>
+https://leetusman.com/scripting_spring2026/posts/2026-01-01-week1.html
+</guid>
+<pubDate>
+Mon, 19 Jan 2026 00:00:00 -0500
+</pubDate>
+<description>
+<![CDATA[
+Today’s Plan
+
+1.  Introduction
+2.  Get to know each other
+3.  Syllabus
+4.  Our goals for the course
+5.  What do we already know?
+6.  Our tools
+7.  Crash course in HTML and CSS
+8.  Where to Get Help
+]]>
+</description>
+</item>
+<item>
+<title>
+CSS Frameworks + Working with a Server
+</title>
+<link>
+https://leetusman.com/scripting_spring2026/posts/2026-01-02-week2.html
+</link>
+<guid>
+https://leetusman.com/scripting_spring2026/posts/2026-01-02-week2.html
+</guid>
+<pubDate>
+Mon, 19 Jan 2026 00:00:00 -0500
+</pubDate>
+<description>
+<![CDATA[
+Today’s plan
+
+-   Workshop: ‘classless’ drop-in stylesheets
+    -   plus customizations
+    -   Quickstart: Create a stylesheet for Week 2 class notes
+-   Important: File paths
+-   Purchase web server space
+-   Positioning things with CSS Flexbox
+
+CSS frameworks
+]]>
+</description>
+</item>
+<item>
+<title>
+Intro to Javascript and the DOM
+</title>
+<link>
+https://leetusman.com/scripting_spring2026/posts/2026-01-03-week3.html
+</link>
+<guid>
+https://leetusman.com/scripting_spring2026/posts/2026-01-03-week3.html
+</guid>
+<pubDate>
+Mon, 19 Jan 2026 00:00:00 -0500
+</pubDate>
+<description>
+<![CDATA[
+Agenda
+
+Important: Next week 2/14 we will be ZOOMing for Class
+
+-   Review
+    -   File structure cheatsheet
+    -   Flexbox for positioning
+    -   Responsive Design with Media Queries
+-   Review student personal sites
+-   Virtual guest: Jason Gaucci
+]]>
+</description>
+</item>
+<item>
+<title>
+Intro to Scripting with jQuery
+</title>
+<link>
+https://leetusman.com/scripting_spring2026/posts/2026-01-04-week4.html
+</link>
+<guid>
+https://leetusman.com/scripting_spring2026/posts/2026-01-04-week4.html
+</guid>
+<pubDate>
+Mon, 19 Jan 2026 00:00:00 -0500
+</pubDate>
+<description>
+<![CDATA[
+Schedule:
+
+-   Check-in
+-   Warm-up Browsing
+-   jQuery Fun
+-   pair up - student feedback on ‘subversive site’
+-   New Media Lecture series Tonight!
+
+jQuery Basics
+]]>
+</description>
+</item>
+<item>
+<title>
+Bookmarklets and Extensions
+</title>
+<link>
+https://leetusman.com/scripting_spring2026/posts/2026-01-05-week5.html
+</link>
+<guid>
+https://leetusman.com/scripting_spring2026/posts/2026-01-05-week5.html
+</guid>
+<pubDate>
+Mon, 19 Jan 2026 00:00:00 -0500
+</pubDate>
+<description>
+<![CDATA[
+Today’s Overview
+
+-   Bookmarklets
+-   Extensions
+-   Complete your Subversive Website
+
+Video: Dark Patterns
+
+How Dark Patterns Trick You Online
+]]>
+</description>
+</item>
+<item>
+<title>
+JSON and Custom Extensions
+</title>
+<link>
+https://leetusman.com/scripting_spring2026/posts/2026-01-06-week6.html
+</link>
+<guid>
+https://leetusman.com/scripting_spring2026/posts/2026-01-06-week6.html
+</guid>
+<pubDate>
+Mon, 19 Jan 2026 00:00:00 -0500
+</pubDate>
+<description>
+<![CDATA[
+Today:
+
+-   review Subversive Website assignment
+-   (The wonderful world of) data formats
+-   intro to JSON
+-   extensions
+
+Subversive websites
+
+-   project review
+]]>
+</description>
+</item>
+<item>
+<title>
+Working with the Date API
+</title>
+<link>
+https://leetusman.com/scripting_spring2026/posts/2026-01-07-week7.html
+</link>
+<guid>
+https://leetusman.com/scripting_spring2026/posts/2026-01-07-week7.html
+</guid>
+<pubDate>
+Mon, 19 Jan 2026 00:00:00 -0500
+</pubDate>
+<description>
+<![CDATA[
+Today:
+
+-   Intro to the Date API
+-   Javascripting: working with time
+
+Night / day site
+
+The goal is to make a site that changes based on whether it’s day or
+night.
+]]>
+</description>
+</item>
+<item>
+<title>
+An introduction to Node
+</title>
+<link>
+https://leetusman.com/scripting_spring2026/posts/2026-01-08-week8.html
+</link>
+<guid>
+https://leetusman.com/scripting_spring2026/posts/2026-01-08-week8.html
+</guid>
+<pubDate>
+Mon, 19 Jan 2026 00:00:00 -0500
+</pubDate>
+<description>
+<![CDATA[
+Today
+
+-   More extensions: injecting scripts
+-   Node
+-   NPM
+-   Express (library)
+
+Injecting scripts in a web extension
+
+Add our manifest
+]]>
+</description>
+</item>
+<item>
+<title>
+Building a chat application with Node.js libraries
+</title>
+<link>
+https://leetusman.com/scripting_spring2026/posts/2026-01-09-week9.html
+</link>
+<guid>
+https://leetusman.com/scripting_spring2026/posts/2026-01-09-week9.html
+</guid>
+<pubDate>
+Mon, 19 Jan 2026 00:00:00 -0500
+</pubDate>
+<description>
+<![CDATA[
+Schedule
+
+1.  warm-up
+2.  Express library
+3.  Our stack: Node.js, Express, Socket.io
+4.  “CoolChat” - Node.js with Express and Socket.io
+5.  Node libraries
+6.  Clock assignment - 1-on-1s and studio time
+
+Game and Performance Talk with Kristin McWharter
+]]>
+</description>
+</item>
+<item>
+<title>
+Working with APIs
+</title>
+<link>
+https://leetusman.com/scripting_spring2026/posts/2026-01-10-week10.html
+</link>
+<guid>
+https://leetusman.com/scripting_spring2026/posts/2026-01-10-week10.html
+</guid>
+<pubDate>
+Mon, 19 Jan 2026 00:00:00 -0500
+</pubDate>
+<description>
+<![CDATA[
+Today:
+
+-   APIs
+-   Weather API
+-   1-on-1 Check-ins with Students
+-   In-class work + homework
+
+API
+
+Application Program Interface
+]]>
+</description>
+</item>
+<item>
+<title>
+Audio API
+</title>
+<link>
+https://leetusman.com/scripting_spring2026/posts/2026-01-11-week11.html
+</link>
+<guid>
+https://leetusman.com/scripting_spring2026/posts/2026-01-11-week11.html
+</guid>
+<pubDate>
+Mon, 19 Jan 2026 00:00:00 -0500
+</pubDate>
+<description>
+<![CDATA[
+Schedule:
+
+-   more weather API experimentation - workshop
+-   Project Check-ins
+-   Web Audio API
+-   introduce radio project
+
+Streaming audio app with Node.js
+
+Create a folder Music and put some mp3s in it.
+]]>
+</description>
+</item>
+<item>
+<title>
+Working with data on the server
+</title>
+<link>
+https://leetusman.com/scripting_spring2026/posts/2026-01-12-week12.html
+</link>
+<guid>
+https://leetusman.com/scripting_spring2026/posts/2026-01-12-week12.html
+</guid>
+<pubDate>
+Mon, 19 Jan 2026 00:00:00 -0500
+</pubDate>
+<description>
+<![CDATA[
+Today
+
+-   JSON with servers
+-   parsing
+-   radio project work and check-ins
+
+JSON with servers
+
+JSON is used for storing, sending and receiving data on servers.
+]]>
+</description>
+</item>
+<item>
+<title>
+Persistence with localStorage
+</title>
+<link>
+https://leetusman.com/scripting_spring2026/posts/2026-01-13-week13.html
+</link>
+<guid>
+https://leetusman.com/scripting_spring2026/posts/2026-01-13-week13.html
+</guid>
+<pubDate>
+Mon, 19 Jan 2026 00:00:00 -0500
+</pubDate>
+<description>
+<![CDATA[
+Today
+
+-   forms
+-   data persistence
+-   localStorage
+-   building a simple web app with forms and localStorage
+-   Final project
+
+Forms
+]]>
+</description>
+</item>
+<item>
+<title>
+Node.js File Systems Module
+</title>
+<link>
+https://leetusman.com/scripting_spring2026/posts/2026-01-14-week14.html
+</link>
+<guid>
+https://leetusman.com/scripting_spring2026/posts/2026-01-14-week14.html
+</guid>
+<pubDate>
+Mon, 19 Jan 2026 00:00:00 -0500
+</pubDate>
+<description>
+<![CDATA[
+Today
+
+-   File system with node.js
+-   Final project studio time
+
+Working with servers
+
+Working with the file system using Node.js
+
+Node.js comes with a builtin file system module to work with a
+]]>
+</description>
+</item>
+</channel>
+  </rss>

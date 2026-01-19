@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>HTML and CSS</title>
+      <link rel="stylesheet" href="../css/../css/panblog.css" />
+
+      <meta property="og:title" content="HTML and CSS" />
+                  <meta property="og:type" content="article" />
+  </head>
+  <body>
+      <header> <nav>
+  <ul>
+    <li><a href="/scripting">home</a></li>
+    <li><a href="/scripting/about">about</a></li>
+  </ul>
+</nav> </footer>
+      <h1>HTML and CSS</h1>
+            <h2 id="todays-plan">Today’s Plan</h2>
+            <ol type="1">
+            <li>Introduction</li>
+            <li>Get to know each other</li>
+            <li>Syllabus</li>
+            <li>Our goals for the course</li>
+            <li>What do we already know?</li>
+            <li>Our tools</li>
+            <li>Crash course in HTML and CSS</li>
+            <li>Where to Get Help</li>
+            <li>Start making websites</li>
+            </ol>
+            <h2 id="development-environment-lab">Development Environment
+            Lab</h2>
+            <ul>
+            <li>Review Text Editors and IDEs</li>
+            <li>HTML</li>
+            <li>CSS selectors</li>
+            <li>Local Servers</li>
+            </ul>
+            <h2 id="editors-and-ides">Editors and IDEs</h2>
+            <p>A text editor is software to write and modify plain text
+            files. They are used to write code. As opposed to word
+            processing software they do not normally allow
+            formatting.</p>
+            <p>An IDE is an <em>integrated development environment</em>,
+            software that provides a number of tools in combination with
+            a text editor and usually a compiler. Processing is an
+            example of a IDE. There are a number of free and open source
+            IDEs available. For this course, you can use whatever text
+            editor or IDE you would like. Some editors and IDEs have
+            good standard defaults (<em>with batteries</em>) for
+            particular languages or use cases. There are dozens
+            (hundreds?) of options. Here’s what I’ll be teaching with,
+            but you are welcome to use whatever you prefer:</p>
+            <ul>
+            <li><a href="https://code.visualstudio.code">Visual Studio
+            Code</a> - an open source code editor by Microsoft. Works on
+            Mac, PC, Linux.</li>
+            <li><a href="https://glitch.com/">Glitch</a> - Glitch is a
+            powerful web app with friendly UI that allows you to code a
+            website as well as script a server. It combines a web editor
+            with a version control synced with GitHub. It is very easy
+            to code your website and instantly see changes in the
+            browser.</li>
+            </ul>
+            <h1 id="htmlcssjavascript-environment">HTML/CSS/Javascript
+            environment</h1>
+            <h3 id="html---hypertext-markup-language">HTML - Hypertext
+            Markup Language</h3>
+            <ul>
+            <li>aka <em>The content</em></li>
+            <li>Hypertext - directional <em>hyper</em> links. Words are
+            associated with another file. By clicking on the link you
+            jump to the other file.</li>
+            <li>Markup - language used to describe formatting and
+            placement. Other markup languages include <a
+            href="https://en.wikipedia.org/wiki/Wiki#Editing">Wikimarkup</a></li>
+            <li>Language - self-explanatory!</li>
+            <li><a
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">HTML
+            reference</a></li>
+            </ul>
+            <h3 id="css---cascading-style-sheets">CSS - Cascading Style
+            Sheets</h3>
+            <ul>
+            <li>aka <em>The Style</em></li>
+            <li>Where HTML is said to be your <em>content</em>, your CSS
+            describes its <em>style</em>. CSS is used to describe
+            colors, placement, fonts, size of objects, and more.</li>
+            <li>CSS has a specific format. You specify what elements on
+            your website you want to modify, then give rules for how to
+            style those elements.</li>
+            <li>CSS <a href="http://cssreference.io/">reference</a></li>
+            <li>CSS for placement
+            <ul>
+            <li>We use CSS for <em>style</em>. Positioning is specified
+            in CSS.</li>
+            </ul></li>
+            </ul>
+            <h3 id="basic-html-tags-to-know">Basic HTML Tags to
+            know</h3>
+            <p>There are so many html tags, but most of the time you
+            will be using probably only a dozen or two at most.</p>
+            <pre><code>html
+
+head
+
+title
+
+body
+
+h1
+
+h2
+
+h3 
+
+p
+
+img
+
+a
+
+br</code></pre>
+            <h2 id="lets-start-making-some-sites">Let’s start making
+            some sites</h2>
+            <h3 id="anatomy-of-a-webpage">Anatomy of a webpage</h3>
+            <p>Our website’s html page will always start with
+            <code>&lt;!DOCTYPE html&gt;</code> at the top. It tells a
+            web browser to interpret everything afterwards as HTML.</p>
+            <p>Indenting is optional. A web browser ignores spacing when
+            it builds the webpage. But it helps us read and understand
+            what we’re doing. We usually use indentation to indicate how
+            elements are nested inside one another.</p>
+            <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;body&gt;
+
+    &lt;h1&gt;My First Heading&lt;/h1&gt;
+    &lt;p&gt;My first paragraph.&lt;/p&gt;
+
+  &lt;/body&gt;
+&lt;/html&gt; 
+</code></pre>
+            <p>Add some text. Make sure you are inside the body section.
+            Surround your text in paragraph tags. To make headers you
+            can use h1, h2 (and getting smaller) down to h6, though I
+            never use h4 and below.</p>
+            <p>Try adding more paragraphs. Make a second webpage. Add a
+            link between the two with anchor <code>&lt;a&gt;</code> tags
+            like this:</p>
+            <pre><code>Visit &lt;a href=&#39;page2.html&#39;&gt;Page 2&lt;/a&gt;.</code></pre>
+            <p>The earliest websites had no <em>style</em>. They were
+            just text. Some people think we should still make websites
+            this way! (See <a
+            href="https://danluu.com/web-bloat/">many</a> <a
+            href="https://idlewords.com/talks/website_obesity.htm">articles</a>
+            <a href="https://gemini.circumlunar.space/">bemoaning</a>
+            this).</p>
+            <p>There is a search engine just to find these kinds of
+            websites. Check out: <a href="http://wiby.me">Wiby</a>.
+            Hint: Click <em>surprise me…</em> to see a random
+            example.</p>
+            <p><a href="http://textfiles.com/">Textfiles</a> is a modern
+            example of this kind of site.</p>
+            <p><a href="https://100r.co">Hundred Rabbits</a> is a bit
+            more stylish but mostly simple this way</p>
+            <p>Very little CSS style at all on <a
+            href="https://text.npr.org/">Text-only NPR</a></p>
+            <p><a href="https://www.w3.org/People/Berners-Lee/">Tim
+            Berners-Lee</a> is the inventor of the modern web.</p>
+            <p>Olia Lialina’s <a
+            href="http://contemporary-home-computing.org/prof-dr-style/">Top
+            10 Web Design Styles of 1993</a> ### A starter website with
+            just HTML</p>
+            <div class="sourceCode" id="cb4"><pre
+            class="sourceCode html"><code class="sourceCode html"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;!DOCTYPE</span> html<span class="dt">&gt;</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">html</span><span class="dt">&gt;</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&lt;</span><span class="kw">head</span><span class="dt">&gt;</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&lt;</span><span class="kw">title</span><span class="dt">&gt;</span>Our new website<span class="dt">&lt;/</span><span class="kw">title</span><span class="dt">&gt;</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&lt;/</span><span class="kw">head</span><span class="dt">&gt;</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&lt;</span><span class="kw">body</span><span class="dt">&gt;</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&lt;</span><span class="kw">h1</span><span class="dt">&gt;</span>Welcome!<span class="dt">&lt;/</span><span class="kw">h1</span><span class="dt">&gt;</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>Hi and welcome to my website!<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&lt;</span><span class="kw">h2</span><span class="dt">&gt;</span>Section 2!<span class="dt">&lt;/</span><span class="kw">h2</span><span class="dt">&gt;</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>Great info here.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&lt;/</span><span class="kw">body</span><span class="dt">&gt;</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">html</span><span class="dt">&gt;</span></span></code></pre></div>
+            <p>We can images. Unlike most of our other tags, they don’t
+            have a closing tag.</p>
+            <pre><code>&lt;img src=&quot;my-photo.jpg&quot;&gt;</code></pre>
+            <h3 id="add-some-style">Add some style</h3>
+            <p>Now we need to talk about CSS.</p>
+            <p>CSS stands for Cascading Style Sheet.</p>
+            <p>CSS is how we style our content. We can change colors,
+            fonts, sizes of things, specify placement, etc.</p>
+            <p>Syntax:</p>
+            <pre><code>selector {
+  attribute: value;
+}</code></pre>
+            <p>Examples:</p>
+            <pre><code>body {
+  width: 500px;
+  background-color: grey;
+  font-size: 12px;
+}
+
+p {
+  font-size: 14px;
+  color: blue;
+}
+</code></pre>
+            <h3 id="web-color">Web Color</h3>
+            <p>You can specify colors with a web color name, or RGB
+            values, or, most commonly, HTML color.</p>
+            <p>There is a very 90s-style website <a
+            href="http://html-color-codes.com/">HTML Color Codes</a> and
+            hundreds of color pickers if you do a simple <a
+            href="https://duckduckgo.com/?t=canonical&amp;q=css+color+picker&amp;atb=v198-1&amp;ia=web">web
+            search</a> for CSS color picker or HTML color picker.</p>
+            <h3 id="italics-bolding">Italics, Bolding</h3>
+            <div class="sourceCode" id="cb8"><pre
+            class="sourceCode html"><code class="sourceCode html"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">i</span><span class="dt">&gt;</span>This text will be italicized<span class="dt">&lt;/</span><span class="kw">i</span><span class="dt">&gt;</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">em</span><span class="dt">&gt;</span>This is another way to do italicization <span class="dt">&lt;/</span><span class="kw">em</span><span class="dt">&gt;</span></span></code></pre></div>
+            <p>My understanding is <code>&lt;em&gt;</code> and
+            <code>&lt;strong&gt;</code> are the more ‘proper’ way to
+            write <a
+            href="https://www.w3schools.com/html/html5_semantic_elements.asp">“semantic”</a>
+            italicized and bolded html, which helps screen readers,
+            accessibility tools and cross-platform applications.</p>
+            <div class="sourceCode" id="cb9"><pre
+            class="sourceCode html"><code class="sourceCode html"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">b</span><span class="dt">&gt;</span>Bolded text<span class="dt">&lt;/</span><span class="kw">b</span><span class="dt">&gt;</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">strong</span><span class="dt">&gt;</span>Will also be bold, and is the preferred way<span class="dt">&lt;/</span><span class="kw">strong</span><span class="dt">&gt;</span></span></code></pre></div>
+            <h3 id="external-stylesheets">External Stylesheets</h3>
+            <p>It’s considered best practices to place your CSS on a
+            separate page and link to it from your
+            <code>&lt;head&gt;</code> section.</p>
+            <p>Put your css in a file that ends in <code>.css</code>,
+            for example <code>style.css</code>.</p>
+            <p>You link to it like this:</p>
+            <pre><code>&lt;head&gt;
+  &lt;title&gt;My title&lt;/title&gt;
+  
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
+&lt;/head&gt;</code></pre>
+            <h3 id="file-structure">File structure</h3>
+            <p>The style sheet linked above is located inside the same
+            folder as our HTML file. If it was in a sub-folder, we’d
+            have to specify it.</p>
+            <p>For example If we had a folder named css and the
+            style.css was inside it, we would call it like this:</p>
+            <pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;&gt;</code></pre>
+            <p>What happens if our HTML is inside a sub-folder, and the
+            CSS is outside of the folder? We can access the parent
+            directory by using <code>..</code> to look in the folder
+            that encloses our current one.</p>
+            <p>Example: I have a folder WEBSITE holding style.css and
+            another folder HOME. Inside HOME is index.html. Inside the
+            head of my index.html I want to call the stylesheet inside
+            home, like this:</p>
+            <pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;../style.css&quot;&gt;</code></pre>
+            <p>And that’s how it’s done!</p>
+            <h3 id="divs-and-assigning-tags-classes-and-ids">DIVS and
+            assigning Tags, Classes and IDs</h3>
+            <p>A <code>&lt;div&gt;</code> means a division, but we
+            always just say “div”. It’s a chunk of a website. It’s a
+            section that we want to assign some special CSS to. We
+            surround that section in <code>&lt;div&gt;</code> tags and
+            give it a class name, like this:</p>
+            <pre><code>&lt;div class=&quot;bio&quot;&gt;
+  &lt;h1&gt;All About me&lt;/h1&gt;
+  &lt;img src=&quot;headshot.jpg&quot;&gt;
+  &lt;p&gt;I&#39;m pretty great!&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+            <p>Now in my CSS stylesheet I can write CSS rules just for
+            that div section. I decided to assign that section the class
+            “bio”. You can come up with almost any name you’d like. On
+            the stylesheet, you place a period before the class
+            name.</p>
+            <pre><code>.bio {
+  background-color: grey;
+}</code></pre>
+            <p>And now everything in my bio section will have that grey
+            background.</p>
+            <p>There is another special thing we can add, an
+            <code>id</code> aka I.D.</p>
+            <p>It’s like a class, but you can only use it on one section
+            on your page. A class you can use over and over again.</p>
+            <p>To specify an ID on your stylesheet, you place a # before
+            the name.</p>
+            <p>Example:</p>
+            <pre><code>
+&lt;div id=&quot;container&quot;&gt;
+  &lt;img src=&quot;great-photo.jpg&quot;&gt;
+  &lt;p&gt;What a view!&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+            <p>stylesheet:</p>
+            <pre><code>#container {
+  width: 50%;
+}</code></pre>
+            <h2 id="homework">Homework</h2>
+            <h3 id="read-html-and-css-tutorials">Read HTML and CSS
+            Tutorials</h3>
+            <p>Don’t do this all at once. It could/should take a few
+            hours. And you want to take time to practice and try things
+            out.</p>
+            <ul>
+            <li>W3Schools HTML <a
+            href="https://www.w3schools.com/html/">tutorial</a> - down
+            to Layout</li>
+            <li>Pick a path:
+            <ul>
+            <li>Beginner or need refresher on CSS: Review the <a
+            href="https://www.w3schools.com/Css/">CSS tutorials</a> from
+            Home go down through the tutorials until you complete the
+            box model, outline, text/font sections.</li>
+            <li>If you already are “okay” at CSS: Go through the CSS <a
+            href="https://www.w3schools.com/csS/css3_flexbox.asp">flexbox</a>
+            (aka “flexible box”) tutorial on w3schools</li>
+            <li>For students feeling comfortable with flexbox, build
+            your “starting template” for pages/websites.</li>
+            </ul></li>
+            <li>THIS IS ESSENTIAL: <a
+            href="https://jgthms.com/web-design-in-4-minutes/">Web
+            Design in 4 Minutes</a></li>
+            <li><a href="http://learnlayout.com/">Learn Layout
+            tutorial</a></li>
+            </ul>
+            <h2 id="create-due-next-week">Create: Due next week</h2>
+            <h2
+            id="create-a-personal-site-dreams-fears-a-map-what-to-eat-clouds-you-have-known">Create
+            a Personal site: dreams, fears, a map, what to eat, clouds
+            you have known</h2>
+            <p>The goal of this project is to get you quickly and
+            fearlessly building for the web.</p>
+            <p>Create a single page site on one of the following
+            themes:</p>
+            <ul>
+            <li>current fears</li>
+            <li>what to eat on campus</li>
+            <li>your dreams</li>
+            <li>a map of secret or personal spaces on campus or in your
+            neighborhood</li>
+            <li>favorite clouds</li>
+            </ul>
+            <p>Do you have another idea you’d rather make? Then do
+            that.</p>
+            <p>You will be evaluated by:</p>
+            <h3 id="requirements">Requirements</h3>
+            <ul>
+            <li>Use “semantic html”: at least html, head, body, headers
+            (h1, h2, h3, etc), p tags</li>
+            <li>Use an external stylesheet of CSS that you call from
+            your index</li>
+            <li>Include at least one image</li>
+            <li>Body text should be centered, with a margin</li>
+            <li>Text should be readable</li>
+            <li>Assign fonts, sizes, colors</li>
+            <li>Text must be readable</li>
+            <li>Code must work</li>
+            <li>Your concept and design should be clear and
+            compelling</li>
+            <li>Your layout should make sense, not look broken or messed
+            up on different computers/window sizes</li>
+            </ul>
+            <p>Example sites that rely on good, simple, clear HTML + CSS
+            sites are:</p>
+            <ul>
+            <li><a href="https://www.cblgh.org/">cblgh</a> - researcher,
+            engineer, developer</li>
+            <li><a href="https://thecreativeindependent.com/">The
+            Creative Independent</a> - arts interviews and articles</li>
+            <li><a href="https://100r.co/site/home.html">Hundred
+            Rabbits</a> - solarpunk hacker artists</li>
+            <li><a href="https://html.energy/">HTML Energy</a> - a
+            podcast</li>
+            <li><a href="https://diagram.website/">Diagram website</a> -
+            fun personal map of the internet</li>
+            <li><a href="https://extrapractice.space/">Extra Practice
+            space</a></li>
+            <li><a href="https://ellugar.co/">Ellugar - Mario Carballo
+            Zama</a> - game designer</li>
+            <li><a href="https://ritualdust.com/">Ritual Dust</a> -
+            fantasy and craft artist</li>
+            <li><a
+            href="https://wiki.xxiivv.com/site/home.html">XXIIVV</a> -
+            personal wiki and project tracking</li>
+            <li><a href="https://nnnnnnnn.co/">tehn</a> - electronic
+            composer</li>
+            <li>Links to many more great clean, creatively designed and
+            hand-coded websites at <a
+            href="https://gossipsweb.net/">Gossip’s Web</a></li>
+            </ul>
+            <h3 id="due-in-three-weeks-a-class-site-of-your-own">Due in
+            three weeks: A class site of your own</h3>
+            <p>Make a single-page website that will serve as a landing
+            page for the projects you create this semester. The site
+            should be clear and easy to navigate. The code must work
+            properly. The site should have your name or a pseudonym and
+            a clear list of your webpages that you make for class.</p>
+            <p>The webpages you make for this class may be hosted on a
+            single site, or you could have works at multiple locations
+            and across many sites. This does not matter as long as your
+            class website links to all of them.</p>
+            <p>Start by reading Olia Lialina’s <a
+            href="http://art.teleportacia.org/observation/vernacular/uc/">Under
+            Construction</a>. Create an indicator on your class website
+            that more content will be coming soon.</p>
+            <p>Your work will be evaluated based on the following. Those
+            with previous HTML and CSS experience will be judged based
+            on their experience and I expect more significant work!</p>
+            <ul>
+            <li>Design
+            <ul>
+            <li>Is the website intuitive and attractive?</li>
+            <li>Does the design suit the content?</li>
+            <li>Is the design compelling?</li>
+            </ul></li>
+            <li>Execution
+            <ul>
+            <li>Does the code work?</li>
+            <li>Does the code make sense?</li>
+            </ul></li>
+            <li>Usability
+            <ul>
+            <li>Is it clear how to access your pages?</li>
+            </ul></li>
+            <li>Consistency
+            <ul>
+            <li>is the design consistent or are things in strange or
+            confusing places?</li>
+            </ul></li>
+            </ul>
+      <footer> <hr>
+<p><em>Lee Tusman 2026. CC BY. Built with <a href="https://github.com/lee2sman/panblog">panblog</a>.</em></p> </footer>
+  </body>
+</html>

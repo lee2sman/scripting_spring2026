@@ -1,0 +1,42 @@
+body {
+  background-color: #c7fcd6;
+  margin: 1%;
+}
+
+h1 {
+  color: #a369ef; 
+}
+
+h2 {
+  color: #ef69ba;
+}
+
+h3 {
+  color: #f4295f;
+}
+
+a {
+  color: #A020F0;
+}
+
+p {
+  color: #04000c;
+  margin: 0px;
+}
+
+blockquote {
+  color: #666699;
+}
+
+code, pre {
+  color: #ff1493;
+}
+
+ul, ol, li {
+  color: #04000c;
+  margin: 0px;
+}
+
+img {
+  max-width: 90%;
+}
