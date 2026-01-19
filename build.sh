@@ -74,11 +74,12 @@ function create_site {
   # uncomment next line to list oldest posts from top to bottom
   #for file in $site_posts/*.md
 
-  # add them to index in most recent date order
+  # add them to index in date order
   # this relies on posts being titled in YYYY-MM-DD-name format to work correctly
   # tac may need to be installed on os x or zsh, or swith it out for: tail -r
   # uncomment next line to print newest posts from top to bottom (instead of above for top to bottom)
-  ls $site_posts/*.md | tac | while read file;
+  i=1
+  ls $site_posts/*.md | while read file;
   do
 
     # get filename
@@ -108,13 +109,15 @@ function create_site {
 
     # uncomment this section if you prefer posts to be in their own subfolder so permalinks are website.com/postname/
     mkdir -p $site_folder/$file_name
-    pandoc --resource-path=$site_assets --extract-media=../$site_assets --standalone --template templates/post_template.html -B templates/header.html -A templates/footer.html -V site_url="$site_url" -V date="$post_date" -M theme="../css/$post_theme" -M title="$post_name" $file -o $site_folder/$file_name/index.html
+    pandoc --resource-path=$site_assets --extract-media=../$site_assets --standalone --template templates/post_template.html -B templates/header.html -A templates/footer.html -V site_url="$site_url" -M theme="../css/$post_theme" -M title="$post_name" $file -o $site_folder/$file_name/index.html
     # Add to site index page
     echo "[$post_name]($file_name/)  ">>$site_folder/index.md
 
-    # add date 
-    echo "$post_date  ">>$site_folder/index.md
+    # add week 
+    echo "week $i">>$site_folder/index.md
     echo "">>$site_folder/index.md
+    # decrement week
+    ((i++))
 
   done
 

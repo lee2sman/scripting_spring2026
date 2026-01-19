@@ -1,6 +1,13 @@
 @charset "UTF-8";
+@font-face {
+  font-family: 'Bitter';
+  src: url('Bitter-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 /** Reset some basic elements */
-@import url("https://fonts.googleapis.com/css?family=Bitter&display=swap");
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { 
   margin: 0; padding: 0; 
 }
@@ -13,8 +20,7 @@ html {
 }
 
 body { 
-  font: 400 15.3px/1.6 "Bitter", "Hiragino Sans GB", "Microsoft Yahei", "微软雅黑", "Bitter", sans-serif; 
-  font-family: Menlo, Monaco, Consolas, Liberation Mono, Lucida Console, monospace; 
+  font: 400 15.3px/1.6 Bitter, Georgia, "Times New Roman", serif;
   color: #111;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -27,8 +33,8 @@ body {
   flex-direction: column;
   padding: 0 2%; 
   margin: 0 auto;
-  max-width: 50em;
-  line-height: 1.5;
+  max-width: 45em;
+  line-height: 1.7;
   padding: 4em 1em;
   background-color: rgba(255,255,255,0.7);
   border-radius: 2em;
@@ -96,9 +102,42 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400; 
 }
 
+/** Adjustments to individual heading hierarchy */
+h1 { font-size: 2em; margin-top: 0; }
+h2 { font-size: 1.5em; margin-top: 2.5rem; }
+h3 { font-size: 1.25em; margin-top: 2rem; }
+h4 { font-size: 1.1em; margin-top: 1.5rem; }
+
+h2 {
+  background-color: rgba(56, 136, 225, 0.15);
+  padding: 1em 1.5em;
+  margin-left: -1.5em;
+  margin-right: -1.5em;
+  margin-top: 3rem;
+  border-radius: 8px;
+  border-left: 6px solid #3888E1;
+  box-shadow: 0 2px 8px rgba(56, 136, 225, 0.2);
+}
+
+h3:nth-of-type(odd) {
+  background-color: rgba(255, 200, 200, 0.8); /* red tint - very visible */
+  padding: 0.8em 1.2em;
+  margin-left: -1.2em;
+  margin-right: -1.2em;
+  border-radius: 8px;
+}
+
+h3:nth-of-type(even) {
+  background-color: rgba(200, 200, 255, 0.8); /* blue tint - very visible */
+  padding: 0.8em 1.2em;
+  margin-left: -1.2em;
+  margin-right: -1.2em;
+  border-radius: 8px;
+}
+
 /** Links */
 a { 
-  color: #2a7ae2;
+  color: #005a9c; 
   text-decoration: none; 
 }
 
@@ -106,9 +145,14 @@ a:hover {
   text-decoration: underline;
 }
 
+a:focus {
+  outline: 2px solid #2a7ae2;
+  outline-offset: 2px;
+}
+
 /** Blockquotes */
 blockquote { 
-  color: #828282; 
+  color: #5a5a5a; 
   border-left: 4px solid #e8e8e8; 
   padding-left: 15px; 
   font-size: 18px; 
@@ -127,25 +171,30 @@ blockquote > :last-child {
 
 /** Code formatting */
 pre, code { 
-  font-size: 16.2px; 
-  border: 1px solid #e0e0e0; 
-  border-radius: 3px; 
-  background-color: #f0f0f0; 
+  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 15px; 
+  border: 1px solid #d0d0d0; 
+  border-radius: 5px; 
+  background-color: #f8f8f8; 
 }
 
 code { 
-  padding: 1px 1px; 
+  padding: 2px 6px; 
+  font-size: 0.9em;
+  color: #c7254e;
 }
 
 pre { 
-  padding: 2px 2px; 
+  padding: 12px 16px; 
   overflow-x: auto; 
+  line-height: 1.4;
 }
 
 pre > code { 
   border: 0; 
   padding-right: 0; 
   padding-left: 0; 
+  color: #111;
 }
 
 /** Tables */
