@@ -10,7 +10,8 @@ Instructor: Lee Tusman
 Pronouns: he/him  
 Contact: Lee.Tusman@purchase.edu  
 Course: CRN 64657 / MAT 3146  
-Office Hours: Wednesdays 15:00 - 18:40  
+Class: Wednesdays 15:00 - 18:40  
+Office Hours: Mondays 11:00 - 13:00  
 Room: Nat Sci 1013  
 
 ![Purchase College clock tower - dithered](purchase.gif)
