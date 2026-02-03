@@ -2,7 +2,8 @@
 title: Goblin Mode workshop - OpenCV
 ---
 
-![Joecasso image - portrait of Joe with face overlaid by Picasso-style face](joecasso.webp)
+![face numbering model with openCV](facenumbering.webp)  
+*image from [clmtrackr](https://github.com/auduno/clmtrackr) by Audun Mathias Øygard*
 
 ## Introduction to Computer Vision
 
@@ -25,6 +26,9 @@ Tested and verified working on Chrome-based browsers. Does not work within Firef
 This intoduction to working with OpenCV with p5.js shows facial detection and recognition. Can you get an intuitive understanding of how it works? Test out the variables. What results can you get?
 
 **Activity: look at the example variables that are given to you. Using these variables, what overlays can you make? Add your knowledge of JavaScript and/or p5.js to add new items that modify the image output.**
+
+
+![Joecasso image - portrait of Joe with face overlaid by Picasso-style face](joecasso.webp)
 
 ## Facial recognition with overlay example: Picasso filter
 

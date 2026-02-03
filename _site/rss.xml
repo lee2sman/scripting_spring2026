@@ -74,8 +74,7 @@ Tue, 03 Feb 2026 00:00:00 -0500
 </pubDate>
 <description>
 <![CDATA[
-[Joecasso image - portrait of Joe with face overlaid by Picasso-style
-face]
+[face numbering model with openCV]
 
 Introduction to Computer Vision
 
@@ -84,6 +83,7 @@ using the OpenCV library through a web browser.
 
   The scientific discipline of computer vision is concerned with the
   theory behind artificial systems that extract information from images.
+  Image data can take many forms, such as video sequences, views from
 ]]>
 </description>
 </item>
