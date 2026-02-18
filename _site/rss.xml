@@ -14,7 +14,7 @@ https://leetusman.com/scripting_spring2026/posts/2026-01-01-week1.html
 https://leetusman.com/scripting_spring2026/posts/2026-01-01-week1.html
 </guid>
 <pubDate>
-Tue, 03 Feb 2026 00:00:00 -0500
+Wed, 18 Feb 2026 00:00:00 -0500
 </pubDate>
 <description>
 <![CDATA[
@@ -42,7 +42,7 @@ https://leetusman.com/scripting_spring2026/posts/2026-01-02-week2.html
 https://leetusman.com/scripting_spring2026/posts/2026-01-02-week2.html
 </guid>
 <pubDate>
-Tue, 03 Feb 2026 00:00:00 -0500
+Wed, 18 Feb 2026 00:00:00 -0500
 </pubDate>
 <description>
 <![CDATA[
@@ -61,34 +61,6 @@ CSS frameworks
 </item>
 <item>
 <title>
-Goblin Mode workshop - OpenCV
-</title>
-<link>
-https://leetusman.com/scripting_spring2026/posts/2026-01-03-goblin-mode.html
-</link>
-<guid>
-https://leetusman.com/scripting_spring2026/posts/2026-01-03-goblin-mode.html
-</guid>
-<pubDate>
-Tue, 03 Feb 2026 00:00:00 -0500
-</pubDate>
-<description>
-<![CDATA[
-[face numbering model with openCV]
-
-Introduction to Computer Vision
-
-Today’s workshop covers an introduction to working with computer vision,
-using the OpenCV library through a web browser.
-
-  The scientific discipline of computer vision is concerned with the
-  theory behind artificial systems that extract information from images.
-  Image data can take many forms, such as video sequences, views from
-]]>
-</description>
-</item>
-<item>
-<title>
 Intro to Javascript and the DOM
 </title>
 <link>
@@ -98,7 +70,7 @@ https://leetusman.com/scripting_spring2026/posts/2026-01-03-week3.html
 https://leetusman.com/scripting_spring2026/posts/2026-01-03-week3.html
 </guid>
 <pubDate>
-Tue, 03 Feb 2026 00:00:00 -0500
+Wed, 18 Feb 2026 00:00:00 -0500
 </pubDate>
 <description>
 <![CDATA[
@@ -109,9 +81,9 @@ Agenda
     -   Flexbox for positioning
     -   Responsive Design with Media Queries
 -   Review student personal sites
--   Virtual guest: Jason Gaucci
 -   Intro to JavaScript
     -   The Document Object Model (DOM)
+    -   in-class project: Collaboratively build a class website CSS
 ]]>
 </description>
 </item>
@@ -126,7 +98,7 @@ https://leetusman.com/scripting_spring2026/posts/2026-01-04-week4.html
 https://leetusman.com/scripting_spring2026/posts/2026-01-04-week4.html
 </guid>
 <pubDate>
-Tue, 03 Feb 2026 00:00:00 -0500
+Wed, 18 Feb 2026 00:00:00 -0500
 </pubDate>
 <description>
 <![CDATA[
@@ -144,6 +116,34 @@ jQuery Basics
 </item>
 <item>
 <title>
+web zine workshop
+</title>
+<link>
+https://leetusman.com/scripting_spring2026/posts/2026-01-05-web-zine-workshop.html
+</link>
+<guid>
+https://leetusman.com/scripting_spring2026/posts/2026-01-05-web-zine-workshop.html
+</guid>
+<pubDate>
+Wed, 18 Feb 2026 00:00:00 -0500
+</pubDate>
+<description>
+<![CDATA[
+NSS Rainy Day Web Zine - Issue 0
+
+In 1991, a coffee maker at the Univerity of Cambridge went online. The
+Trojan Room Coffee Pot cam was the very first webcam.
+
+  To save people working in the building the disappointment of finding
+  the coffee machine empty after making the trip to the room, a camera
+  was set up providing a live picture of the coffee pot to all desktop
+  computers on the office network. After the camera was connected to the
+  Internet a few years later, the coffee pot gained international renown
+]]>
+</description>
+</item>
+<item>
+<title>
 Bookmarklets and Extensions
 </title>
 <link>
@@ -153,7 +153,7 @@ https://leetusman.com/scripting_spring2026/posts/2026-01-05-week5.html
 https://leetusman.com/scripting_spring2026/posts/2026-01-05-week5.html
 </guid>
 <pubDate>
-Tue, 03 Feb 2026 00:00:00 -0500
+Wed, 18 Feb 2026 00:00:00 -0500
 </pubDate>
 <description>
 <![CDATA[
@@ -180,7 +180,7 @@ https://leetusman.com/scripting_spring2026/posts/2026-01-06-week6.html
 https://leetusman.com/scripting_spring2026/posts/2026-01-06-week6.html
 </guid>
 <pubDate>
-Tue, 03 Feb 2026 00:00:00 -0500
+Wed, 18 Feb 2026 00:00:00 -0500
 </pubDate>
 <description>
 <![CDATA[
@@ -208,7 +208,7 @@ https://leetusman.com/scripting_spring2026/posts/2026-01-07-week7.html
 https://leetusman.com/scripting_spring2026/posts/2026-01-07-week7.html
 </guid>
 <pubDate>
-Tue, 03 Feb 2026 00:00:00 -0500
+Wed, 18 Feb 2026 00:00:00 -0500
 </pubDate>
 <description>
 <![CDATA[
@@ -235,7 +235,7 @@ https://leetusman.com/scripting_spring2026/posts/2026-01-08-week8.html
 https://leetusman.com/scripting_spring2026/posts/2026-01-08-week8.html
 </guid>
 <pubDate>
-Tue, 03 Feb 2026 00:00:00 -0500
+Wed, 18 Feb 2026 00:00:00 -0500
 </pubDate>
 <description>
 <![CDATA[
@@ -263,7 +263,7 @@ https://leetusman.com/scripting_spring2026/posts/2026-01-09-week9.html
 https://leetusman.com/scripting_spring2026/posts/2026-01-09-week9.html
 </guid>
 <pubDate>
-Tue, 03 Feb 2026 00:00:00 -0500
+Wed, 18 Feb 2026 00:00:00 -0500
 </pubDate>
 <description>
 <![CDATA[
@@ -291,7 +291,7 @@ https://leetusman.com/scripting_spring2026/posts/2026-01-10-week10.html
 https://leetusman.com/scripting_spring2026/posts/2026-01-10-week10.html
 </guid>
 <pubDate>
-Tue, 03 Feb 2026 00:00:00 -0500
+Wed, 18 Feb 2026 00:00:00 -0500
 </pubDate>
 <description>
 <![CDATA[
@@ -319,7 +319,7 @@ https://leetusman.com/scripting_spring2026/posts/2026-01-11-week11.html
 https://leetusman.com/scripting_spring2026/posts/2026-01-11-week11.html
 </guid>
 <pubDate>
-Tue, 03 Feb 2026 00:00:00 -0500
+Wed, 18 Feb 2026 00:00:00 -0500
 </pubDate>
 <description>
 <![CDATA[
@@ -347,7 +347,7 @@ https://leetusman.com/scripting_spring2026/posts/2026-01-12-week12.html
 https://leetusman.com/scripting_spring2026/posts/2026-01-12-week12.html
 </guid>
 <pubDate>
-Tue, 03 Feb 2026 00:00:00 -0500
+Wed, 18 Feb 2026 00:00:00 -0500
 </pubDate>
 <description>
 <![CDATA[
@@ -374,7 +374,7 @@ https://leetusman.com/scripting_spring2026/posts/2026-01-13-week13.html
 https://leetusman.com/scripting_spring2026/posts/2026-01-13-week13.html
 </guid>
 <pubDate>
-Tue, 03 Feb 2026 00:00:00 -0500
+Wed, 18 Feb 2026 00:00:00 -0500
 </pubDate>
 <description>
 <![CDATA[
@@ -401,7 +401,7 @@ https://leetusman.com/scripting_spring2026/posts/2026-01-14-week14.html
 https://leetusman.com/scripting_spring2026/posts/2026-01-14-week14.html
 </guid>
 <pubDate>
-Tue, 03 Feb 2026 00:00:00 -0500
+Wed, 18 Feb 2026 00:00:00 -0500
 </pubDate>
 <description>
 <![CDATA[
@@ -415,6 +415,34 @@ Working with servers
 Working with the file system using Node.js
 
 Node.js comes with a builtin file system module to work with a
+]]>
+</description>
+</item>
+<item>
+<title>
+Goblin Mode workshop - OpenCV
+</title>
+<link>
+https://leetusman.com/scripting_spring2026/posts/2026-02-04-goblin-mode.html
+</link>
+<guid>
+https://leetusman.com/scripting_spring2026/posts/2026-02-04-goblin-mode.html
+</guid>
+<pubDate>
+Wed, 18 Feb 2026 00:00:00 -0500
+</pubDate>
+<description>
+<![CDATA[
+[face numbering model with openCV]
+image from clmtrackr by Audun Mathias Øygard
+
+Introduction to Computer Vision
+
+Today’s workshop covers an introduction to working with computer vision,
+using the OpenCV library through a web browser.
+
+  The scientific discipline of computer vision is concerned with the
+  theory behind artificial systems that extract information from images.
 ]]>
 </description>
 </item>
