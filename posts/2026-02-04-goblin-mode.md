@@ -23,11 +23,13 @@ Tested and verified working on Chrome-based browsers. Does not work within Firef
 
 [Link to starter code](https://editor.p5js.org/kylemcdonald/sketches/F8rmuVkgP)
 
-[Example showing all face tracking points](https://editor.p5js.org/kylemcdonald/sketches/BJOcyD9hm) - from artist/programmer Kyle McDonald
+[Example showing all face tracking points](https://editor.p5js.org/2sman/sketches/6-zOZ2zzP) - from artist/programmer Kyle McDonald
 
 This intoduction to working with OpenCV with p5.js shows facial detection and recognition. Can you get an intuitive understanding of how it works? Test out the variables. What results can you get?
 
 **Activity: look at the example variables that are given to you. Using these variables, what overlays can you make? Add your knowledge of JavaScript and/or p5.js to add new items that modify the image output.**
+
+[EXAMPLE CODE WITH GREEN NOSE and IMAGE AS HAT](https://editor.p5js.org/Joemckay/sketches/XINj11lJg)
 
 
 ![Joecasso image - portrait of Joe with face overlaid by Picasso-style face](joecasso.webp)
