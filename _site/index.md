@@ -25,7 +25,7 @@ week 8
 [An introduction to Node](week8/)  
 week 9
 
-[Building a chat application with Node.js libraries](week9/)  
+[Intro to nodeJS](week9/)  
 week 10
 
 [Working with APIs](week10/)  
