@@ -114,7 +114,7 @@ function create_site {
     echo "[$post_name]($file_name/)  ">>$site_folder/index.md
 
     # add week 
-    echo "week $i">>$site_folder/index.md
+    #echo "week $i">>$site_folder/index.md
     echo "">>$site_folder/index.md
     # decrement week
     ((i++))
