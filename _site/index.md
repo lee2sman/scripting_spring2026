@@ -30,3 +30,5 @@
 
 [Goblin Mode workshop - OpenCV](goblin-mode/)  
 
+[Student Weather Apps](weather-apps/)  
+
